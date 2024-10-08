@@ -20,9 +20,7 @@ Taking helpful notes while learning JS
 
 comments
 
-'<!-- comment here -->'
-
-`code`
+`<!-- comment here -->`
 
 # 4. CSS
 
