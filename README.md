@@ -42,6 +42,17 @@ define sections in a document, such as chapters, headers, footers, or any other 
 
 `<section></section>`
 
+**Self-contained Content**
+
+<figure>self-contained content</figure>
+
+<figcaption>content caption</figcaption>
+
+`<figure>
+  <img src="favicon-192x192.png" alt="The beautiful MDN logo." />
+  <figcaption>MDN Logo</figcaption>
+</figure>`
+
 # 4. CSS
 
 # 5. Other Technologies
