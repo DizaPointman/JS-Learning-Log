@@ -16,7 +16,7 @@ Taking helpful notes while learning JS
 
 # 3. HTML
 
-## 3.1 Syntax
+## 3.1 General Syntax
 
 **comments**
 
@@ -36,13 +36,21 @@ Taking helpful notes while learning JS
 
 `<p>I <strong>love</strong> fucking assholes</p>`
 
-## 3.2 Best Practices
+## 3.2 Forms
+
+**Form and Action**
+
+The action attribute indicates where form data should be sent
+
+`<form action="sent data here url"></form>`
+
+## 3.3 Best Practices
 
 **Descriptions for images**
 
 `<img src="cat.jpg" alt="A cat">`
 
-## 3.3 SEO Optimization
+## 3.4 SEO Optimization
 
 **Section Elements**
 
