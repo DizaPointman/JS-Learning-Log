@@ -178,6 +178,11 @@ define sections in a document, such as chapters, headers, footers, or any other 
 # 4. CSS
 
 ## 4.1 Syntax
+
+**comment**
+
+`/* comment here */`
+
 ```
 h1 {
   text-align: center;
@@ -205,6 +210,10 @@ Make styling of the page to look similar on mobile as it does on a desktop or la
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 </head>
 ```
+
+## 4.3 Selectors
+
+[Selectors](https://www.w3schools.com/cssref/css_selectors.php)
 
 # 5. Other Technologies
 
