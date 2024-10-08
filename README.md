@@ -44,6 +44,10 @@ The action attribute indicates where form data should be sent
 
 `<form action="sent data here url"></form>`
 
+The default behavior of clicking a form button without any attributes submits the form to the location specified in the form's action attribute.
+
+`<button></button>`
+
 **Input**
 
 The input element allows you several ways to collect data from a web form
