@@ -180,6 +180,28 @@ define sections in a document, such as chapters, headers, footers, or any other 
 
 # 4. CSS
 
+```
+<style>
+  h1 {
+    text-align: center;
+  }
+  h2 {
+    text-align: center;
+  }
+  p {
+    text-align: center;
+  }
+</style>
+```
+
+```
+<style>
+  h1, h2, p {
+    text-align: center;
+  }
+</style>
+```
+
 # 5. Other Technologies
 
 ## 5.1 Browsers
