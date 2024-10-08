@@ -50,7 +50,7 @@ The input element allows you several ways to collect data from a web form
 
 - text
 
-`<input type="text" name="catphotourl">`
+`<input type="text" name="catphotourl" placeholder="cat photo URL">`
 
 ## 3.3 Best Practices
 
