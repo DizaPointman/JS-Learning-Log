@@ -205,6 +205,7 @@ p {
   text-align: center;
 }
 ```
+**Grouping selectors**
 
 ```
 h1, h2, p {
@@ -212,15 +213,25 @@ h1, h2, p {
 }
 ```
 
+**Grouping attributes**
+
+`border-left: width style color;`
+
 ## 4.2 Responsiveness
 
-Make styling of the page to look similar on mobile as it does on a desktop or laptop
+**Make styling of the page to look similar on mobile as it does on a desktop or laptop**
 
 ```
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 </head>
 ```
+
+**Viewport relative Sizings**
+
+vh = viewport height
+
+1vh = 1% of viewport height
 
 **Margin**
 
@@ -255,6 +266,10 @@ fading starts at 75% of width - standard is 0%, 50%, 100% (equal distribution)
   background: linear-gradient(hsl(186, 76%, 16%), hsl(223, 90%, 60%), hsl(240, 56%, 42%));
 }
 ```
+
+**Box Shadow**
+
+`box-shadow: offsetX offsetY blurRadius spreadRadius color`
 
 ## 4.3 Selectors
 
