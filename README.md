@@ -16,6 +16,10 @@ Taking helpful notes while learning JS
 
 # 3. HTML
 
+ All page content elements that should be rendered to the page go inside the body element. However, other important information goes inside the head element.
+
+The head element is used to contain metadata about the document, such as its title, links to stylesheets, and scripts. Metadata is information about the page that isn't displayed directly on the page.
+
 ## 3.1 General Syntax
 
 **comments**
@@ -52,6 +56,8 @@ To clarify, add a type
 </form>
 ```
 
+Add **checked** to input attributes to make a radio button or checkbox selected by default
+
 **Fieldset**
 
 The fieldset element is used to group related inputs and labels together in a web form. fieldset elements are block-level elements, meaning that they appear on a new line
@@ -64,12 +70,12 @@ Use legends to clarify forms with captions
 <form action="sent data here url">
   <fieldset>
     <legend>Is your cat an indoor or outdoor cat?</legend>
-    <label><input id="indoor" type="radio" name="indoor-outdoor" value="indoor"> Indoor</label>
+    <label><input id="indoor" type="radio" name="indoor-outdoor" value="indoor" checked> Indoor</label>
     <label><input id="outdoor" type="radio" name="indoor-outdoor" value="outdoor"> Outdoor</label>
   </fieldset>
   <fieldset>
     <legend>What's your cat's personality?</legend>
-    <input id="loving" type="checkbox" name="personality" value="loving"> <label for="loving">Loving</label>
+    <input id="loving" type="checkbox" name="personality" value="loving"> <label for="loving" checked>Loving</label>
     <input id="lazy" type="checkbox" name="personality" value="lazy"> <label for="lazy">Lazy</label>
     <input id="energetic" type="checkbox" name="personality" value="energetic"> <label for="energetic"> Energetic</label>
   </fieldset>
