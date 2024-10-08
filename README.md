@@ -22,6 +22,12 @@ comments
 
 `<!-- comment here -->`
 
+## 3.2 Best Practices
+
+Descriptions for images
+
+`<img src="cat.jpg" alt="A cat">`
+
 # 4. CSS
 
 # 5. Other Technologies
