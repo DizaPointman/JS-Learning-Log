@@ -18,17 +18,17 @@ Taking helpful notes while learning JS
 
 ## 3.1 Syntax
 
-comments
+- comments
 
 `<!-- comment here -->`
 
-open link in new tab
+- open link in new tab
 
 `target="_blank"`
 
 `<a href="https://www.freecodecamp.org" target="_blank">freeCodeCamp</a>`
 
-emphasize a specific word or phrase
+- emphasize a specific word or phrase
 
 `<p>I <em>love</em> fucking assholes</p>`
 
