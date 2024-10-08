@@ -100,6 +100,15 @@ For convenience, set the button's value attribute to the same value as its id at
 <label><input id="outdoor" type="radio" name="indoor-outdoor" value="outdoor"> Outdoor</label>
 ```
 
+- checkbox
+
+check multiple options
+
+```
+<legend>What's your cat's personality?</legend>
+<input id="loving" type="checkbox"> Loving
+```
+
 ## 3.3 Best Practices
 
 **Descriptions for images**
@@ -111,6 +120,14 @@ For convenience, set the button's value attribute to the same value as its id at
 label elements are used to help associate the text for an input element with the input element itself (especially for assistive technologies like screen readers)
 
 `<label><input type="radio"> Indoor</label>`
+
+There's another way to associate an input element's text with the element itself. 
+You can nest the text within a label element and add a for attribute with the same value as the input element's id attribute.
+
+```
+<input id="loving" type="checkbox">
+<label for="loving"> Loving </label>
+```
 
 ## 3.4 SEO Optimization
 
