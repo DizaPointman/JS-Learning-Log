@@ -71,7 +71,12 @@ name, placeholder, required
 
 Only one out of multiple answers
 
-`<input type="radio"> cat`
+To make it so selecting one radio button automatically deselects the other, both buttons must have a name attribute with the same value
+
+```
+<input type="radio" name="meal"> Breakfast
+<input type="radio" name="meal"> Lunch
+```
 
 ## 3.3 Best Practices
 
