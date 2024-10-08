@@ -28,6 +28,10 @@ open link in new tab
 
 `<a href="https://www.freecodecamp.org" target="_blank">freeCodeCamp</a>`
 
+emphasize a specific word or phrase
+
+`<p>I <em>love</em> fucking assholes</p>`
+
 ## 3.2 Best Practices
 
 Descriptions for images
