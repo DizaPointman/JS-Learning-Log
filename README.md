@@ -25,6 +25,7 @@ comments
 open link in new tab
 
 `target="_blank"`
+
 `<a href="https://www.freecodecamp.org" target="_blank">freeCodeCamp</a>`
 
 ## 3.2 Best Practices
