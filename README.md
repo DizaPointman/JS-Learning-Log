@@ -48,6 +48,10 @@ The action attribute indicates where form data should be sent
 
 The input element allows you several ways to collect data from a web form
 
+- text
+
+`<input type="text" name="catphotourl">`
+
 ## 3.3 Best Practices
 
 **Descriptions for images**
