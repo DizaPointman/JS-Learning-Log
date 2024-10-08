@@ -26,6 +26,7 @@ The head element is used to contain metadata about the document, such as its tit
 <!--all other elements go here-->
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css">
     <title>I love fucking asses</title>
   </head>
@@ -176,6 +177,7 @@ define sections in a document, such as chapters, headers, footers, or any other 
 
 # 4. CSS
 
+## 4.1 Syntax
 ```
 h1 {
   text-align: center;
@@ -193,6 +195,13 @@ h1, h2, p {
   text-align: center;
 }
 ```
+
+## 4.2 Responsiveness
+
+```
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
 
 # 5. Other Technologies
 
