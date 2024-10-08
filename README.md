@@ -51,6 +51,20 @@ To clarify, add a type
   <button>Submit</button>
 </form>
 ```
+**Fieldset**
+
+The fieldset element is used to group related inputs and labels together in a web form. fieldset elements are block-level elements, meaning that they appear on a new line
+
+```
+<form action="sent data here url">
+  <fieldset>
+    <label><input id="indoor" type="radio" name="indoor-outdoor" value="indoor"> Indoor</label>
+    <label><input id="outdoor" type="radio" name="indoor-outdoor" value="outdoor"> Outdoor</label>
+  </fieldset>
+  <button>Submit</button>
+</form>
+```
+
 **Button types**
 
 - Submit
@@ -73,9 +87,11 @@ Only one out of multiple answers
 
 To make it so selecting one radio button automatically deselects the other, both buttons must have a name attribute with the same value
 
+For convenience, set the button's value attribute to the same value as its id attribute
+
 ```
-<input type="radio" name="meal"> Breakfast
-<input type="radio" name="meal"> Lunch
+<label><input id="indoor" type="radio" name="indoor-outdoor" value="indoor"> Indoor</label>
+<label><input id="outdoor" type="radio" name="indoor-outdoor" value="outdoor"> Outdoor</label>
 ```
 
 ## 3.3 Best Practices
