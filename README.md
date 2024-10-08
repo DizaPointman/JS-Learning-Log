@@ -20,6 +20,13 @@ Taking helpful notes while learning JS
 
 The head element is used to contain metadata about the document, such as its title, links to stylesheets, and scripts. Metadata is information about the page that isn't displayed directly on the page.
 
+```
+<!DOCTYPE html>
+<html lang="en">
+<!--all other elements go here-->
+</html>
+```
+
 ## 3.1 General Syntax
 
 **comments**
