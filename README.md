@@ -13,12 +13,16 @@ Taking helpful notes while learning JS
 
 ## 2.3 VS Code
 
-# 3. Other Technologies
+# 3. HTML
 
-## 3.1 Browsers
+# 4. CSS
 
-# 4. Resources
+# 5. Other Technologies
 
-## 4.1 General
+## 5.1 Browsers
 
-## 4.2 Specific
+# 6. Resources
+
+## 6.1 General
+
+## 6.2 Specific
