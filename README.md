@@ -36,13 +36,17 @@ Taking helpful notes while learning JS
 
 `<p>I <strong>love</strong> fucking assholes</p>`
 
-## 3.2 Forms
+## 3.2 Forms and Input
 
 **Form and Action**
 
 The action attribute indicates where form data should be sent
 
 `<form action="sent data here url"></form>`
+
+**Input**
+
+The input element allows you several ways to collect data from a web form
 
 ## 3.3 Best Practices
 
