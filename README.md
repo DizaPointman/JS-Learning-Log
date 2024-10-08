@@ -19,7 +19,10 @@ Taking helpful notes while learning JS
 ## 3.1 Syntax
 
 comments
+
 '<!-- comment here -->'
+
+`code`
 
 # 4. CSS
 
