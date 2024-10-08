@@ -16,6 +16,11 @@ Taking helpful notes while learning JS
 
 # 3. HTML
 
+## 3.1 Syntax
+
+comments
+'<!-- comment here -->'
+
 # 4. CSS
 
 # 5. Other Technologies
