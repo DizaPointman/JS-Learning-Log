@@ -51,6 +51,10 @@ To clarify, add a type
   <button>Submit</button>
 </form>
 ```
+Use legends to clarify forms with captions
+
+`<legend>form caption</legend>`
+
 **Fieldset**
 
 The fieldset element is used to group related inputs and labels together in a web form. fieldset elements are block-level elements, meaning that they appear on a new line
