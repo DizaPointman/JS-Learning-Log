@@ -18,23 +18,23 @@ Taking helpful notes while learning JS
 
 ## 3.1 Syntax
 
-- comments
+**comments**
 
 `<!-- comment here -->`
 
-- open link in new tab
+**open link in new tab**
 
 `target="_blank"`
 
 `<a href="https://www.freecodecamp.org" target="_blank">freeCodeCamp</a>`
 
-- emphasize a specific word or phrase
+**emphasize a specific word or phrase**
 
 `<p>I <em>love</em> fucking assholes</p>`
 
 ## 3.2 Best Practices
 
-Descriptions for images
+**Descriptions for images**
 
 `<img src="cat.jpg" alt="A cat">`
 
