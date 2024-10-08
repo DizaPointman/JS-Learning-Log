@@ -134,6 +134,17 @@ check multiple options
 <input id="loving" type="checkbox"> Loving
 ```
 
+**articles**
+
+Article elements commonly contain multiple elements that have related information
+
+```
+<article>
+  <p>French Vanilla</p>
+  <p>3.00</p>
+</article>
+```
+
 ## 3.3 Best Practices
 
 **Descriptions for images**
@@ -209,6 +220,30 @@ Make styling of the page to look similar on mobile as it does on a desktop or la
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 </head>
+```
+
+**Margin**
+
+When the shorthand margin property has two values, it sets margin-top and margin-bottom to the first value, and margin-left and margin-right to the second value.
+
+```
+.yourclass {
+  margin: 10px auto;
+}
+```
+
+**Gradient**
+
+Make colors fade into eachother
+
+```
+direction: 90deg
+first color
+second color
+
+.red {
+  background: linear-gradient(90deg, rgb(255, 0, 0), rgb(0, 255, 0));
+}
 ```
 
 ## 4.3 Selectors
