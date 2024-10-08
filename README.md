@@ -44,9 +44,9 @@ define sections in a document, such as chapters, headers, footers, or any other 
 
 **Self-contained Content**
 
-<figure>self-contained content</figure>
+`<figure>self-contained content</figure>`
 
-<figcaption>content caption</figcaption>
+`<figcaption>content caption</figcaption>`
 
 ```
 <figure>
