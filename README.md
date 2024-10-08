@@ -26,6 +26,11 @@ The head element is used to contain metadata about the document, such as its tit
 <!--all other elements go here-->
   <head>
     <meta charset="utf-8">
+    <style>
+      h1 {
+        text-align: center;
+      }
+    </style>
     <title>I love fucking asses</title>
   </head>
 </html>
