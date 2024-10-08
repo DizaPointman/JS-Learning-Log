@@ -63,9 +63,15 @@ Use legends to clarify forms with captions
 ```
 <form action="sent data here url">
   <fieldset>
-    <legend>form caption</legend>
+    <legend>Is your cat an indoor or outdoor cat?</legend>
     <label><input id="indoor" type="radio" name="indoor-outdoor" value="indoor"> Indoor</label>
     <label><input id="outdoor" type="radio" name="indoor-outdoor" value="outdoor"> Outdoor</label>
+  </fieldset>
+  <fieldset>
+    <legend>What's your cat's personality?</legend>
+    <input id="loving" type="checkbox" name="personality" value="loving"> <label for="loving">Loving</label>
+    <input id="lazy" type="checkbox" name="personality" value="lazy"> <label for="lazy">Lazy</label>
+    <input id="energetic" type="checkbox" name="personality" value="energetic"> <label for="energetic"> Energetic</label>
   </fieldset>
   <button>Submit</button>
 </form>
@@ -125,8 +131,8 @@ There's another way to associate an input element's text with the element itself
 You can nest the text within a label element and add a for attribute with the same value as the input element's id attribute.
 
 ```
-<input id="loving" type="checkbox">
-<label for="loving"> Loving </label>
+<input id="loving" type="checkbox" name="personality"> <label for="loving">Loving</label>
+<input id="lazy" type="checkbox" name="personality"> <label for="lazy">Lazy</label>
 ```
 
 ## 3.4 SEO Optimization
