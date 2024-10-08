@@ -34,6 +34,14 @@ Descriptions for images
 
 `<img src="cat.jpg" alt="A cat">`
 
+## 3.3 SEO Optimization
+
+**Section Elements**
+
+define sections in a document, such as chapters, headers, footers, or any other sections of the document
+
+`<section></section>`
+
 # 4. CSS
 
 # 5. Other Technologies
