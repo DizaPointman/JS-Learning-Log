@@ -234,15 +234,25 @@ When the shorthand margin property has two values, it sets margin-top and margin
 
 **Gradient**
 
-Make colors fade into eachother
+Make colors fade into eachother. More than two colors possible
 
 ```
-direction: 90deg
-first color
-second color
+direction: 90deg - 90 right, 180 down, 270 left, 360 up (standard 180)
+first color: red
+second color: green
+third clor: blue
+fading starts at 75% of width - standard is 0%, 50%, 100% (equal distribution)
 
 .red {
-  background: linear-gradient(90deg, rgb(255, 0, 0), rgb(0, 255, 0));
+  background: linear-gradient(90deg, rgb(255, 0, 0) 75%, rgb(0, 255, 0), rgb(0, 0, 255);
+}
+
+.green {
+  background: linear-gradient(#55680D, #71F53E, #116C31);
+}
+
+.blue {
+  background: linear-gradient(hsl(186, 76%, 16%), hsl(223, 90%, 60%), hsl(240, 56%, 42%));
 }
 ```
 
