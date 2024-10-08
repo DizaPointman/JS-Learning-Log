@@ -42,11 +42,18 @@ Taking helpful notes while learning JS
 
 The action attribute indicates where form data should be sent
 
-`<form action="sent data here url"></form>`
-
 The default behavior of clicking a form button without any attributes submits the form to the location specified in the form's action attribute
 
 To clarify, add a type
+
+```
+<form action="sent data here url">
+  <button>Submit</button>
+</form>
+```
+**Button types**
+
+- Submit
 
 `<button type="submit">Submit</button>`
 
@@ -60,11 +67,23 @@ name, placeholder, required
 
 `<input type="text" name="catphotourl" placeholder="cat photo URL" required>`
 
+- radio
+
+Only one out of multiple answers
+
+`<input type="radio"> cat`
+
 ## 3.3 Best Practices
 
 **Descriptions for images**
 
 `<img src="cat.jpg" alt="A cat">`
+
+**Labeling**
+
+label elements are used to help associate the text for an input element with the input element itself (especially for assistive technologies like screen readers)
+
+`<label><input type="radio"> Indoor</label>`
 
 ## 3.4 SEO Optimization
 
