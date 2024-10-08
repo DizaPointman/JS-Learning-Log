@@ -198,10 +198,13 @@ h1, h2, p {
 
 ## 4.2 Responsiveness
 
+Make styling of the page to look similar on mobile as it does on a desktop or laptop
+
 ```
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 </head>
+```
 
 # 5. Other Technologies
 
