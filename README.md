@@ -28,9 +28,13 @@ Taking helpful notes while learning JS
 
 `<a href="https://www.freecodecamp.org" target="_blank">freeCodeCamp</a>`
 
-**emphasize a specific word or phrase**
+**cursive - emphasize a specific word or phrase**
 
 `<p>I <em>love</em> fucking assholes</p>`
+
+**bold - strong importance**
+
+`<p>I <strong>love</strong> fucking assholes</p>`
 
 ## 3.2 Best Practices
 
