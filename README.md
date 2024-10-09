@@ -299,11 +299,11 @@ try to put one functionality into one blueprint to achieve modularity
 
 user service, database service, error service, security service, email service, update service(dependencies), feature service
 
-[x] a REALLY cool ToDo list
+- [x] a REALLY cool ToDo list
 
-[ ] a decent README :D
+- [ ] a decent README :D
 
-[ ] landingpage, registration, user page, additional page, admin page - all dummy functions on additional page (file up/download, API's, ticket, voting)
+- [ ] landingpage, registration, user page, additional page, admin page - all dummy functions on additional page (file up/download, API's, ticket, voting)
 
 [ ] user accounts with simple user page
 
