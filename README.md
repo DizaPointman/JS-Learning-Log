@@ -284,3 +284,34 @@ fading starts at 75% of width - standard is 0%, 50%, 100% (equal distribution)
 ## 6.1 General
 
 ## 6.2 Specific
+
+# 7. Appendix
+
+## 7.1 Boilerplate
+
+https://circleci.com/blog/unit-testing-vs-integration-testing/
+
+decide which to outsource as packages to be installed in case
+
+- landingpage, registration, user page, additional page, admin page - all dummy functions on additional page (file up/download, API's, ticket, voting)
+- user accounts with simple user page
+- user roles including giving or limiting rights
+- account registration with confirmation and retrieval per email, deletion
+- blueprint structure
+- setup for dev, test, prod environment variables etc
+- file upload/download
+- database handling for SQLite and PostgreSQL - own db and outsourced db
+- caching
+- error handling for all errors
+- database integrity monitor
+- test environment - template for unit/integration tests
+- simple css -> create two boilerplates for simple/complex frontend
+- working API, dummy
+- API service for other API's
+- manual with guidelines for keeping structure
+- social logins, google, facebook, instagram, discord
+- preparation to install on android/ios as webapp (shortcut to webpage)
+- votingsystem for features/suggestions
+- ticket system for problems
+- state of the art security
+- docker container
