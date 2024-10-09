@@ -293,6 +293,8 @@ https://circleci.com/blog/unit-testing-vs-integration-testing/
 
 decide which to outsource as packages to be installed in case
 
+try to put one functionality into one blueprint to achieve modularity
+
 - landingpage, registration, user page, additional page, admin page - all dummy functions on additional page (file up/download, API's, ticket, voting)
 - user accounts with simple user page
 - user roles including giving or limiting rights
