@@ -295,25 +295,36 @@ decide which to outsource as packages to be installed in case
 
 try to put one functionality into one blueprint to achieve modularity
 
+user service, database service, error service, security service, email service, feature service
+
 - landingpage, registration, user page, additional page, admin page - all dummy functions on additional page (file up/download, API's, ticket, voting)
 - user accounts with simple user page
 - user roles including giving or limiting rights
 - account registration with confirmation and retrieval per email, deletion
+- create, edit, delete, soft delete template funcs -> error handler
 - blueprint structure
 - setup for dev, test, prod environment variables etc
 - file upload/download
+- export as pdf
+- content tagging template
+- tree structure template
 - database handling for SQLite and PostgreSQL - own db and outsourced db
 - caching
 - error handling for all errors
-- database integrity monitor
+- database integrity monitor with restoration func
 - test environment - template for unit/integration tests
-- simple css -> create two boilerplates for simple/complex frontend
+- localization template for multiple langages
+- simple css with light/dark mode, localization button -> second boilerplate with complex frontend with JS
+- ability to change colors/fonts/background images from admin panel
 - working API, dummy
 - API service for other API's
-- manual with guidelines for keeping structure
+- manual with guidelines for keeping structure, SEO
 - social logins, google, facebook, instagram, discord
 - preparation to install on android/ios as webapp (shortcut to webpage)
 - votingsystem for features/suggestions
 - ticket system for problems
 - state of the art security
+- SEO
+- impressum/terms and conditions
+- cooky management, google analytics shit
 - docker container
